@@ -29,7 +29,7 @@ The reviews fetched are stored in mongodb database along with their correspondin
    For example consider we want to scrape review for movie "Badla"
    The url for its review page would be: https://www.imdb.com/title/tt8130968/reviews?ref_=tt_urv
    
-![im2](https://user-images.githubusercontent.com/34889668/56755816-fd688780-67ad-11e9-8321-e361eddee812.png)
+   ![im2](https://user-images.githubusercontent.com/34889668/56755816-fd688780-67ad-11e9-8321-e361eddee812.png)
    So the command for this would be : 
    scrapy crawl imdb -a my_url = "https://www.imdb.com/title/tt8130968/reviews?ref_=tt_urv"
    
