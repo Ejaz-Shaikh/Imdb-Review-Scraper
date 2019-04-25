@@ -18,23 +18,23 @@ The reviews fetched are stored in mongodb database along with their correspondin
 
 1. Go to your parent directory. For example:
 
-![im1](https://user-images.githubusercontent.com/34889668/56755431-23415c80-67ad-11e9-8f65-d62b245a8ab5.png)
+   ![im1](https://user-images.githubusercontent.com/34889668/56755431-23415c80-67ad-11e9-8f65-d62b245a8ab5.png)
 
-Type: cd {your parent directory path}
+   Type: cd {your parent directory path}
 
 
 2. To run the script type:
-scrapy crawl imdb -a my_url = "{the title's url}"
+   scrapy crawl imdb -a my_url = "{the title's url}"
    
-For example consider we want to scrape review for movie "Badla"
-The url for its review page would be: https://www.imdb.com/title/tt8130968/reviews?ref_=tt_urv
+   For example consider we want to scrape review for movie "Badla"
+   The url for its review page would be: https://www.imdb.com/title/tt8130968/reviews?ref_=tt_urv
    
 ![im2](https://user-images.githubusercontent.com/34889668/56755816-fd688780-67ad-11e9-8321-e361eddee812.png)
-So the command for this would be : 
-scrapy crawl imdb -a my_url = "https://www.imdb.com/title/tt8130968/reviews?ref_=tt_urv"
+   So the command for this would be : 
+   scrapy crawl imdb -a my_url = "https://www.imdb.com/title/tt8130968/reviews?ref_=tt_urv"
    
    
-3. Open the mongodb database collection in which you have chosen to save the data. Its been assumed here that you have          already created an database and collection and passed their names to settings.py and pipelines.py files respectively.  
+3. Open the mongodb database collection in which you have chosen to save the data. Its been assumed here that you have            already created an database and collection and passed their names to settings.py and pipelines.py files respectively.  
    
    
 4. And with that you have fetched all the reviews for your desired title. Whether it be a movie, tv or anime. :smile:   
