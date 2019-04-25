@@ -4,9 +4,9 @@
 
 This spider is written in python using the Scrapy framework. Do with it what you will. If you'd like to contribute please contact me at ejazshaikh94@yahoo.in.
 
-One thing to note if you do use this project, be aware that I'm not sure of the legality of this in a proffessinal setting, so use it at your own risk. Also be aware that you can get your ip address banned from websites if you scrap. There are ways of mitagating this risk such as adding delay between requests, which I've built into this by default, but nonetheless there is still risk.
+One thing to note if you do use this project, be aware that I'm not sure of the legality of this in a professional setting, so use it at your own risk. Also be aware that you can get your ip address banned from websites if you scrape. There are ways of mitagating this risk such as adding delay between requests, which I've built into this by default, but nonetheless there is still risk.
 
-To run this code you need to have Python 3 installed on your computer and you need to have Scrapy 1.6 installed
+To run this code you need to have Python 3 installed on your computer along with have Scrapy 1.6 or greater.
 
 ## *WORKING*
 
