@@ -9,6 +9,14 @@ SPIDER_MODULES = ['ImdbScraper.spiders']
 NEWSPIDER_MODULE = 'ImdbScraper.spiders'
 
 
+#Configure maximum concurrent requests performed by Scrapy (default: 16)
+#You can remove this if the wbsite you are scraping dosen't put restrictions on scraping frequency
+CONCURRENT_REQUESTS = 32
+
+# Configure a delay for requests for the same website (default: 0)
+# See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
+# See also autothrottle settings and docs
+DOWNLOAD_DELAY = 3
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
