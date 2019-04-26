@@ -46,3 +46,6 @@ The collected data is shown in a proper format to the user.
    
    
 4. Now sit back and let the spider crawl :smile:
+
+## Contributions:
+[Husain Shaikh](GitHub.com/HusainShaikh895)
